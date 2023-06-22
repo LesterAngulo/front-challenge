@@ -268,6 +268,7 @@ const Component = ({
             fit,
           });
         }}
+        snappable={true}
         throttleDrag={1}
         edgeDraggable={false}
         onResize={onResize}
